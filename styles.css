@@ -29,6 +29,11 @@ main{
   border-radius: 0.5rem;
   box-shadow: 0.2rem 0.2rem grey;
     }
+h1, h2{
+  text-align:right;
+  font-size: 1rem;
+  color:brown;
+}
 fieldset{
   padding: 1rem;
 }

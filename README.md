@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/traez/shopping-grocery-cart](https://github.com/traez/shopping-grocery-cart)
-- Live Site URL: [https://traez.github.io/shopping-grocery-cart/](https://traez.github.io/shopping-grocery-cart/)
+- Solution URL: [https://github.com/traez/local-storage-oop-beginner-project](https://github.com/traez/local-storage-oop-beginner-project)
+- Live Site URL: [https://traez.github.io/local-storage-oop-beginner-project/](https://traez.github.io/local-storage-oop-beginner-project/)
 
 ## My process
 
