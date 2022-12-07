@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Trae Local Storage OOP Beginner Project</title>
+<meta charSet="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" type="text/css" href="styles.css"/>
+</head>
+<body>
+
+    <main>
+
+        <fieldset>
+            <legend>Store Records in Local Storage</legend>
+                <label for="carBrand" >Car</label>
+                <input type="text" id="carBrand" placeholder="carbrand" required autofocus><br>
+                <label for="carPrice" >Price</label>
+                <input type="text" id="carPrice" placeholder="carPrice" required><br>
+                <label for="carKey" >Key</label>
+                <input type="text" id="carKey" placeholder="carKey" required><br>
+                <button type="button" id="store">Store Records</button>
+        </fieldset>
+
+        <fieldset>
+            <legend>Retrieve Records from Local Storage</legend>
+            <label for="retrieveKey" >Enter Key to retrieve item</label>
+            <input type="text" id="retrieveKey" placeholder="retrieveKey" required><br>
+            <button type="button" id="retrieve">Retrieve records</button>
+        </fieldset>
+
+        <fieldset>
+            <legend>Display Records in Local Storage</legend>
+            <div id="display"></div>
+        </fieldset>
+ 
+        <fieldset>
+            <legend>Maintain Records in Local Storage</legend>
+            <label for="removeKey" >Enter Key to delete item</label>
+            <input type="text" id="removeKey" placeholder="removeKey" required><br>
+            <button type="button" id="removeBut">Remove record</button>
+            <button type="button" id="clearBut">Clear all records</button>
+        </fieldset>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
